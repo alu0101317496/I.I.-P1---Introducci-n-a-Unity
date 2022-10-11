@@ -25,11 +25,13 @@ public class Terrain : MonoBehaviour
         GameObject pj = GameObject.FindGameObjectsWithTag("Personaje")[0];
         GameObject cube = GameObject.FindGameObjectsWithTag("Cubo")[0];
         GameObject cilinder = GameObject.FindGameObjectsWithTag("Cilindro")[0];
+        GameObject terrain = GameObject.FindGameObjectsWithTag("Terreno")[0];
         Debug.Log("I'm a " + sphere.tag);
         Debug.Log("I'm an " + tree.tag);
         Debug.Log("I'm a " + pj.tag);
         Debug.Log("I'm a " + cube.tag);
         Debug.Log("I'm a " + cilinder.tag);
+        Debug.Log("I'm a " + terrain.tag);
     }
 
     // Update is called once per frame
@@ -39,6 +41,19 @@ public class Terrain : MonoBehaviour
     }
 }
 ```
+
+Los objetos añadidos son:
+- Arbol
+- Esfera
+- Cubo
+- Personaje
+- Cilindro
+- Terreno
+
+Para colorear el terreno he usado las texturas que se encontraban en el mismo
+pack de assets que los arboles.
+
+Para todo el proyecto solo se ha usado la interfaz de la aplicación.
 
 
 ### Lista de tareas
