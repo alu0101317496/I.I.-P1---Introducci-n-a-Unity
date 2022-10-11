@@ -51,10 +51,11 @@ Los objetos añadidos son:
 - Terreno
 
 Para colorear el terreno he usado las texturas que se encontraban en el mismo
-pack de assets que los arboles.
+pack de assets que los arboles (DreamForestTree).
 
 Para todo el proyecto solo se ha usado la interfaz de la aplicación.
 
+<img src="./On Edit.png" alt="Interfaz del proyecto">
 
 ### Lista de tareas
 
